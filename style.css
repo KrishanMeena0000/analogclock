@@ -1,0 +1,30 @@
+#main{
+    background: url(clock2.png) no-repeat rgb(189, 61, 61);
+    background-size: contain;
+    background-color: transparent;
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+    border: 1vw solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+#hour,#minute,#second{
+    border-radius: 0.3vw;
+    width: 0.3vw;
+    background-color: #000000;
+    position: absolute;
+    transform-origin: bottom;
+
+}
+#hour{
+    height: 9vw;
+    margin: 6vw 14.85%;
+}
+#minute{
+    height: 10vw;
+    margin: 5vw 14.85%;
+}
+#second{
+    height: 12vw;
+    margin: 3vw 14.85%;
+}
